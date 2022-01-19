@@ -35,6 +35,7 @@ def get_number_of_rounds():
         print("Default value of 5 rounds is set.")
         print()
         return 5
+    return num_rounds
 
 def play_round(computers_choice, users_choice):
     if computers_choice == 1:
